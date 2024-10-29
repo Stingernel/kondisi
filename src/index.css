@@ -1,0 +1,30 @@
+/* src/index.css */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Tambahkan warna latar belakang yang cerah */
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #3a7bd5, #3a6073);
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+input {
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #3a7bd5;
+  box-shadow: 0 0 5px rgba(58, 123, 213, 0.5);
+}
